@@ -11,7 +11,7 @@ class BreathingActivity : Activity
     {
         base.DisplayStartingMessage();
         Console.Clear();
-        Console.WriteLine("Get Ready...");  // Line 33
+        Console.WriteLine("Get Ready..."); 
         base.ShowSpinner(5);   
         Console.WriteLine();
 
