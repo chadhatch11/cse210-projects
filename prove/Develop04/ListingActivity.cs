@@ -22,10 +22,10 @@ class ListingActivity : Activity
         base.DisplayStartingMessage();
         base.ShowSpinner(10);
         Console.Clear();
-        Console.WriteLine("Get ready...");
+        Console.WriteLine("Get ready");
         base.ShowSpinner(5);
         Console.WriteLine();
-        Console.WriteLine("List as many responses you can to the following prompt:");
+        Console.WriteLine("You may list as many responses as you would like to:");
 
         string prompt = GetRandomPrompt();
         Console.WriteLine($" {prompt} ");

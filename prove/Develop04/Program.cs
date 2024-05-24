@@ -7,10 +7,10 @@ class Program
         while(true)
         {
             Console.WriteLine("\nMenu Options:");
-            Console.WriteLine(" 1. Start breathing activity");
-            Console.WriteLine(" 2. Start reflecting activity");
-            Console.WriteLine(" 3. Start listing activity");
-            Console.WriteLine(" 4. Exit");  
+            Console.WriteLine(" 1. Start the Breathing Activity");
+            Console.WriteLine(" 2. Start the Reflecting Activity");
+            Console.WriteLine(" 3. Start the Listing Activity");
+            Console.WriteLine(" 4. Quit");  
             Console.Write("\nSelect a choice from the menu: ");
             int menuChoice = int.Parse(Console.ReadLine());
 
@@ -21,7 +21,7 @@ class Program
             }
 
             Console.WriteLine("");
-            Console.Write("How long, in seconds, would you like for your session? ");
+            Console.Write("How many seconds would you like your session to be? ");
             int duration = int.Parse(Console.ReadLine());
             Console.WriteLine("");
 
@@ -39,7 +39,7 @@ class Program
                     activity = new ListingActivity("Listing", "This activity will help you reflect on the good things in your life by having you list as many things as you can in a certain area.", duration);
                     break;
                 default:
-                    Console.WriteLine("Invalid choice. Please enter a valid choice.");
+                    Console.WriteLine("Invalid choice. Please enter a number from 1 - 4");
                     break;
             } 
 
