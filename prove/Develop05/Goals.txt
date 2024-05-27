@@ -1,0 +1,4 @@
+0
+Eternal Goal:; Read Scriptures Nightly; I Will Read The Scriptures Each Night With My Family.; 10; False
+Simple Goal:; Book Of Mormon; Finish Reading The Book Of Mormon With My Family.; 250; False
+Check List Goal:; Temple; Attend The Temple With My Wife 3 Times A Month.; 50; False; 3; 500; 0
