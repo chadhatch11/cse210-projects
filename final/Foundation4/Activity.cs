@@ -12,7 +12,7 @@ abstract class  Activity
     public string GetSummary()
     {
         string durationStr = $"{_length}min";
-        string paceStr = GetPace().ToString("0.0");
+        string paceStr = GetPace().ToString("0.0"); 
 
         return $"{_date} {_type} ({durationStr})- Distance {GetDistance():0.##} km, Speed {GetSpeed():0.##} kph, Pace {paceStr} min per km";
     }

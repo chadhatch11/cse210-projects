@@ -6,7 +6,7 @@ class CyclingActivity : Activity
         _speed = speed;
     }
     public override float GetSpeed()
-    {
+    { 
         return _speed;
     }
     public override float GetDistance()

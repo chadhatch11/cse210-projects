@@ -5,7 +5,7 @@ class RunningActivity : Activity
     {
         _distance = distance;
     }
-    public override float GetDistance()
+    public override float GetDistance() 
     {
         return _distance;
     }

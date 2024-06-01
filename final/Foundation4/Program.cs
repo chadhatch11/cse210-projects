@@ -7,7 +7,7 @@ class Program
         List<Activity> activities = new List<Activity>();
 
         RunningActivity running = new RunningActivity(4.8f,"30 Nov", 30);
-        activities.Add(running);
+        activities.Add(running); 
 
         SwimmingActivity swimming = new SwimmingActivity(100,"1 Dec", 25);
         activities.Add(swimming);
