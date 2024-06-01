@@ -5,7 +5,7 @@ class ReceptionEvent : Event
         : base(title, desc, date, time, addy, "Reception Event")
     {
         _rsvpEmail = email;
-    }
+    } 
 
     public string GetRsvpEmail()
     {

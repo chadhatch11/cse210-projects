@@ -7,7 +7,7 @@ class LectureEvent : Event
     {
         _speaker = speaker;
         _capacity = capacity;
-    }
+    } 
 
     public string GetSpeaker()
     {

@@ -76,7 +76,7 @@ class Program
         Console.WriteLine("Short Message");
         Console.WriteLine("-------------");
         Console.WriteLine(eventObj.GetType().Name);
-        Console.WriteLine(eventObj.GetTitle());
+        Console.WriteLine(eventObj.GetTitle()); 
         Console.WriteLine(eventObj.GetDate());
         Console.WriteLine("___________________________|");
         Console.WriteLine();

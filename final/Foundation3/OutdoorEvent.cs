@@ -6,8 +6,8 @@ class OutdoorEvent : Event
     {
         _weatherForecast = weather;
     }
-
-    public string GetWeatherForecast()
+ 
+    public string GetWeatherForecast() 
     {
         return _weatherForecast;
     }
