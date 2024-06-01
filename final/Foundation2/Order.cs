@@ -11,7 +11,7 @@ class Order
     {
         _customer = customer;
         _products = products;
-    }
+    } 
 
     public float CalcTotalPrice()
     {

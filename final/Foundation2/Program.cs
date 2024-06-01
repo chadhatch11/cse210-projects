@@ -11,7 +11,7 @@ class Program
         Product product1 = new Product("Kung Pao Shrimp", 202, 3.01f, 1);
         Product product2 = new Product("Beef with Broccoli", 203, 2.10f, 2);
         products1.Add(product1);
-        products1.Add(product2);
+        products1.Add(product2); 
         Order order1 = new Order(person1, products1);
 
         Console.WriteLine("Order 1");

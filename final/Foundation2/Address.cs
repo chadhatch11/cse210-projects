@@ -18,7 +18,7 @@ class Address
         return _country == "USA" || _country == "US" || _country == "United States";
     }
 
-    public string FullAddress()
+    public string FullAddress() 
     {
         return _streetAddress + "\n" + _city + ", " + _state + ' ' + _country;
     }

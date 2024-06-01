@@ -16,6 +16,6 @@ class Customer
 
     public bool InUSA()
     {
-        return _address.IsUSA();
+        return _address.IsUSA(); 
     }
 }
