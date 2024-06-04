@@ -1,7 +1,7 @@
 class CyclingActivity : Activity
 {
     private float _speed;
-    public CyclingActivity(float speed, string date, int length):base(date,length,"Cycling")
+    public CyclingActivity(float speed, string date, int length):base(date,length,"Cycling") 
     {
         _speed = speed;
     }

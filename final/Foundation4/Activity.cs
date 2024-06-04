@@ -17,7 +17,7 @@ abstract class  Activity
         return $"{_date} {_type} ({durationStr})- Distance {GetDistance():0.##} km, Speed {GetSpeed():0.##} kph, Pace {paceStr} min per km";
     }
 
-    public int GetLength()
+    public int GetLength() 
     {
         return _length;
     }
