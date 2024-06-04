@@ -4,21 +4,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        Address addy = new Address("123 Main St", "Springfield", "IL", "USA");
+        Address addy = new Address("2016 S Rome St", "Gilbert", "AZ", "USA");
 
-        LectureEvent lectureEvent = new LectureEvent("John Doe", 50, "Workshop", "Advanced Programming", "May 15", "2:30 PM", addy);
+        LectureEvent lectureEvent = new LectureEvent("Chad Doe", 75, "Workshop", "Advanced Programming in C#", "June 15", "2:30 PM", addy);
         DisplayEvent(lectureEvent);
         DisplayFullMessage(lectureEvent);
         DisplayStandardMessage(lectureEvent);
         DisplayShortMessage(lectureEvent);
 
-        ReceptionEvent receptionEvent = new ReceptionEvent("RSVP@email.com", "Company Party", "Annual Celebration", "July 20", "6:00 PM", addy);
+        ReceptionEvent receptionEvent = new ReceptionEvent("RSVP@email.com", "Company Party", "Annual Celebration", "June 20", "8:00 PM", addy);
         DisplayEvent(receptionEvent);
         DisplayFullMessage(receptionEvent);
         DisplayStandardMessage(receptionEvent);
         DisplayShortMessage(receptionEvent);
 
-        OutdoorEvent outdoorEvent = new OutdoorEvent("Partly Cloudy", "Community Picnic", "Park Gathering", "June 5", "12:00 PM", addy);
+        OutdoorEvent outdoorEvent = new OutdoorEvent("Partly Cloudy", "Community Picnic", "Park Gathering", "June 25", "2:00 PM", addy);
         DisplayEvent(outdoorEvent);
         DisplayFullMessage(outdoorEvent);
         DisplayStandardMessage(outdoorEvent);
@@ -27,7 +27,7 @@ class Program
 
     static void DisplayEvent(Event eventObj)
     {
-        Console.WriteLine($"***{eventObj.GetType().Name}***");
+        Console.WriteLine($"*** {eventObj.GetType().Name} ***");
         Console.WriteLine("___________________________");
     }
 
