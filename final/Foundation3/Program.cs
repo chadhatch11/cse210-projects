@@ -6,7 +6,7 @@ class Program
     {
         Address addy = new Address("2016 S Rome St", "Gilbert", "AZ", "USA");
 
-        LectureEvent lectureEvent = new LectureEvent("Chad Doe", 75, "Workshop", "Advanced Programming in C#", "June 15", "2:30 PM", addy);
+        LectureEvent lectureEvent = new LectureEvent("Chad Hatch", 75, "Workshop", "Advanced Programming in C#", "June 15", "2:30 PM", addy);
         DisplayEvent(lectureEvent);
         DisplayFullMessage(lectureEvent);
         DisplayStandardMessage(lectureEvent);
@@ -18,7 +18,7 @@ class Program
         DisplayStandardMessage(receptionEvent);
         DisplayShortMessage(receptionEvent);
 
-        OutdoorEvent outdoorEvent = new OutdoorEvent("Partly Cloudy", "Community Picnic", "Park Gathering", "June 25", "2:00 PM", addy);
+        OutdoorEvent outdoorEvent = new OutdoorEvent("Partly Cloudy", "Birthday Party", "Park Gathering", "June 25", "2:00 PM", addy);
         DisplayEvent(outdoorEvent);
         DisplayFullMessage(outdoorEvent);
         DisplayStandardMessage(outdoorEvent);
